@@ -33,7 +33,7 @@ public class ListsWebE {
 
     @BeforeClass
     public void setUpClass() throws Exception {
-        listado = new ListadoWebElements(driver);
+        listado = new ListadoWebElements(driver, "chrome");
         driver = listado.DriverConnection();
         listado.Visit("https://demo.guru99.com/test/newtours/");
         driver.manage().window().maximize();

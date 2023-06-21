@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 1.051 sec <<< FAILURE!
+setUpClass(Tests.TestReservation)  Time elapsed: 0.688 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.equals(Object)" because "this.driver" is null
+	at Base.BaseClass.DriverConnection(BaseClass.java:29)
+	at Tests.TestReservation.setUpClass(TestReservation.java:31)
+
+setUpClass(Tests.TestsMT)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.equals(Object)" because "this.driver" is null
+	at Base.BaseClass.DriverConnection(BaseClass.java:29)
+	at Tests.TestsMT.setUpClass(TestsMT.java:29)
+

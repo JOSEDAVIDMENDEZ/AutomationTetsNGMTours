@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.miscursos.automationmtok","l":"AutomationMTok"},{"p":"Base","l":"BaseClass"},{"p":"Methods","l":"ListadoWebElements"},{"p":"Methods","l":"MTmethods"},{"p":"Methods","l":"PageReservation"},{"p":"Methods","l":"PrintLinks"}];updateSearchResults();

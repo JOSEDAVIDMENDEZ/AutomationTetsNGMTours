@@ -34,8 +34,8 @@ public class PageReservation extends BaseClass{
     By buttonback = By.xpath("/html/body/div[2]/table/tbody/tr/td[2]"
             + "/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td/a");
     
-    public PageReservation(WebDriver driver) {
-        super(driver);
+    public PageReservation(WebDriver driver, String browser) {
+        super(driver, browser);
     }
     
     public boolean SelectPassed(int numeroPasajeros, String department, 

@@ -25,7 +25,7 @@ public class TestsMT {
 
     @org.testng.annotations.BeforeClass
     public  void setUpClass() throws Exception {
-        pageobject= new MTmethods(driver);
+        pageobject= new MTmethods(driver,"chrome");
         driver = pageobject.DriverConnection();
         pageobject.Visit("https://demo.guru99.com/test/newtours/");
         driver.manage().window().maximize();//este metodo maximize lo puedo hacer

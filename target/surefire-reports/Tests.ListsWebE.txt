@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.ListsWebE
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.07 sec <<< FAILURE!
-ListInputs(Tests.ListsWebE)  Time elapsed: 0.061 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at Tests.ListsWebE.ListInputs(ListsWebE.java:44)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.843 sec

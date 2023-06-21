@@ -29,8 +29,8 @@ public class MTmethods extends BaseClass {
              + "tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/img");
     
     
-    public MTmethods(WebDriver driver) {
-        super(driver);
+    public MTmethods(WebDriver driver, String browser) {
+        super(driver, browser);
     }
     
     public boolean RegisterPassed(String user, String passw) throws InterruptedException{

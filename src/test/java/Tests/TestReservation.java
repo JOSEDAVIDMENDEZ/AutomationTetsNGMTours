@@ -27,7 +27,7 @@ public class TestReservation {
 
     @BeforeClass
     public void setUpClass() throws Exception {
-        reservation = new PageReservation(driver);
+        reservation = new PageReservation(driver, "chrome");
         driver = reservation.DriverConnection();
         reservation.Visit("https://demo.guru99.com/test/newtours/");
         driver.manage().window().maximize();

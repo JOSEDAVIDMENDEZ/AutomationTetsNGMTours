@@ -16,8 +16,8 @@ import org.openqa.selenium.WebElement;
  */
 public class ListadoWebElements extends BaseClass{
  
-    public ListadoWebElements(WebDriver driver) {
-        super(driver);
+    public ListadoWebElements(WebDriver driver, String browser) {
+        super(driver,browser);
     }
  
     public boolean ListInput(int cantinput){
