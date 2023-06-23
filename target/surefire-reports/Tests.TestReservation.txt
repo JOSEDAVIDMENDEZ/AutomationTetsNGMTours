@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.TestReservation
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.743 sec <<< FAILURE!
-TestReservation(Tests.TestReservation)  Time elapsed: 9.5 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at Tests.TestReservation.TestReservation(TestReservation.java:39)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.801 sec

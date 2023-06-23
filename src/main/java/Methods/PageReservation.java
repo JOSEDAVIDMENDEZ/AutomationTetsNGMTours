@@ -40,7 +40,7 @@ public class PageReservation extends BaseClass{
     
     public boolean SelectPassed(int numeroPasajeros, String department, 
                                 String on, int day, String to, String returning, int dayreturn) throws InterruptedException{
-        
+        Thread.sleep(3000);
         Click(linkFlight);
         Thread.sleep(8000);
         
